@@ -1,0 +1,191 @@
+.screen {
+  margin-top: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 700px;
+}
+
+.calculator {
+  border: 2px solid black;
+  display: grid;
+  grid-template-areas: "rst rst rst rst rst rst rst"
+    "rad deg fac ope clo pct a-c"
+    "inv sin ln sev egt nin div"
+    "pi cos log fur fiv six mlt"
+    "e tng sqr one two three sus"
+    "Ans exp pow zer pnt egl adn";
+}
+
+.result {
+  border: 1px solid black;
+  padding-right: 10px;
+}
+
+.Function {
+  background-color: rgb(189, 189, 189);
+  text-align: center;
+  border: 2px solid black;
+  margin: 5px;
+}
+
+.Number {
+  background-color: rgb(153, 137, 137);
+  text-align: center;
+  margin: 5px;
+
+}
+
+.Operation {
+  background-color: rgb(189, 189, 189);
+  text-align: center;
+  margin: 5px;
+}
+
+.result {
+  grid-area: rst;
+  text-align: right;
+}
+
+.Rad {
+  grid-area: rad;
+}
+
+.Deg {
+  grid-area: deg;
+}
+
+.Fac {
+  grid-area: fac;
+}
+
+.Open {
+  grid-area: ope;
+}
+
+.Close {
+  grid-area: clo;
+}
+
+.Purcent {
+  grid-area: pct;
+}
+
+.AC {
+  grid-area: a-c;
+}
+
+.Inv {
+  grid-area: inv;
+}
+
+.Sin {
+  grid-area: sin;
+}
+
+.Ln {
+  grid-area: ln;
+}
+
+.seven {
+  grid-area: sev;
+}
+
+.eight {
+  grid-area: egt;
+}
+
+.nine {
+  grid-area: nin;
+}
+
+.Div {
+  grid-area: div;
+}
+
+.Pi {
+  grid-area: pi;
+}
+
+.Cos {
+  grid-area: cos;
+}
+
+.Log {
+  grid-area: log;
+}
+
+.four {
+  grid-area: fur;
+}
+
+.five {
+  grid-area: fiv;
+}
+
+.six {
+  grid-area: six;
+}
+
+.Mult {
+  grid-area: mlt;
+}
+
+.E {
+  grid-area: e;
+}
+
+.Tan {
+  grid-area: tng;
+}
+
+.Square {
+  grid-area: sqr;
+}
+
+.one {
+  grid-area: one;
+}
+
+.two {
+  grid-area: two;
+}
+
+.three {
+  grid-area: three;
+}
+
+.Sus {
+  grid-area: sus;
+}
+
+.Mem {
+  grid-area: Ans;
+}
+
+.Exp {
+  grid-area: exp;
+}
+
+.Power {
+  grid-area: pow;
+}
+
+.zero {
+  grid-area: zer;
+}
+
+.Point {
+  grid-area: pnt;
+}
+
+.Egals {
+  grid-area: egl;
+  background-color: rgb(77, 77, 240);
+  color: white;
+  text-align: center;
+  margin: 5px;
+}
+
+.Add {
+  grid-area: adn;
+}
