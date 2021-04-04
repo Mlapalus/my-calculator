@@ -8,13 +8,31 @@
 .calculator {
   border: 2px solid black;
   display: grid;
-  grid-template-areas: "rst rst rst rst rst rst rst"
+  grid-template-areas: 
+    "rst rst rst rst rst rst rst"
     "rad deg fac ope clo pct a-c"
     "inv sin ln sev egt nin div"
     "pi cos log fur fiv six mlt"
     "e tng sqr one two three sus"
     "Ans exp pow zer pnt egl adn";
 }
+
+@media screen and (max-width: 400px) {
+  .calculator {
+    border: 2px solid black;
+    display: grid;
+    grid-template-areas: 
+      "rst rst rst rst rst"
+      "fac ope clo pct a-c"
+      "ln sev egt nin div"
+      "log fur fiv six mlt"
+      "sqr one two three sus"
+      "pow zer pnt egl adn"
+      "rad deg inv pi e"
+      "sin cos tng exp Ans";
+}
+}
+
 
 .result {
   border: 1px solid black;
@@ -26,6 +44,11 @@
   text-align: center;
   border: 2px solid black;
   margin: 5px;
+}
+
+p:hover {
+  color: white;
+  background-color: black;
 }
 
 .Number {
